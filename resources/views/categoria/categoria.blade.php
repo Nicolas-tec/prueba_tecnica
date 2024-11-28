@@ -62,7 +62,7 @@
                 <td>{{$categoria->categoria}}</td>
                 <td>
                   <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#edit{{$categoria->id_categoria}}">
-                    edicar categoria
+                    editar categoria
                     </button>
                 </td>
               </tr>

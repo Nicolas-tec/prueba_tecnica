@@ -62,7 +62,7 @@
                 <td>{{$User->email}}</td>
                 <td>
                   <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#edit{{$User->id_usuario}}">
-                    Crear editar usuario
+                    editar usuario
                     </button>
                 </td>
               </tr>

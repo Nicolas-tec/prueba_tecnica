@@ -9,10 +9,16 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
+use Illuminate\Database\Eloquent\Model;
 
 class User extends Authenticatable
 {
-    use HasApiTokens;
+    use HasFactory, HasApiTokens, Notifiable;
+
+    protected $table = 'users';
+    protected $primaryKey = 'id_usuario';
+    protected $guarded=[];
+    public $timestamps = false;
 
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory;
@@ -63,5 +69,8 @@ class User extends Authenticatable
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
         ];
+    }
+    public function prestamos(){
+        return $this->hasMany(prestamos::class);
     }
 }

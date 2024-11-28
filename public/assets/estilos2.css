@@ -1,0 +1,123 @@
+    @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;1,400&family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=Pangolin&family=Playfair:wght@400;500;600;700&family=Roboto+Condensed:wght@300&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    img{
+        width: 70px;
+        height: 50px;
+    }
+    body{
+        background: #A4A4A4;
+        font-family: "Roboto Condensed", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+    }
+    .carousel-inner img {
+        object-fit: cover; 
+    }
+    .info{
+        padding: 100px 0;
+        background-color: white;
+        position: relative;
+    }
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .info-content{
+        text-align: center;
+    }
+    .info-content h2{
+        font-size: 55px;
+        line-height: 70px;
+        color: black;
+        text-transform: uppercase;
+        padding: 0 250px;
+        margin-bottom: 15px;
+    }
+    .txt-parrafo{
+        font-size: 16px;
+        color: black;
+        padding: 0 250px;
+        margin-bottom: 35px;
+    }
+    .info-group{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 50px;
+    }
+    .info-1{
+        width: 200px;
+        padding: 25px;
+    }
+    .info-img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 300px;
+    }
+    .p1{
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .info-group h3{
+        color: black;
+        text-transform: uppercase;
+    }
+    .info-group p{
+        font-size: 16px;
+        color: black;
+        margin-bottom: 35px;
+    }
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    footer div {
+        margin-bottom: 20px;
+    }
+    footer ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    footer ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+    @media (max-width: 576px) {
+        .info-content h2 {
+            font-size: 30px;
+            padding: 0 20px;
+        }
+        .txt-parrafo {
+            font-size: 14px;
+            padding: 0 20px;
+        }
+    }
+    @media (min-width: 577px) and (max-width: 768px) {
+        .info-content h2 {
+            font-size: 40px;
+            padding: 0 30px;
+        }
+        .txt-parrafo {
+            font-size: 16px;
+            padding: 0 30px;
+        }
+    }

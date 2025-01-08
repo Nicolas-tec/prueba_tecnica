@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="{{asset('assets/estilos1.css')}}">
+    <script src="https://kit.fontawesome.com/d73986632c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="vh-100">
@@ -31,17 +32,17 @@
                 @csrf
                 <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                   <p class="lead fw-normal mb-0 me-3">Registrate</p>
-                  <!--<button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
+                  <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
                     <i class="fab fa-facebook-f"></i>
-                  </button>-->
+                  </button>
       
-                  <!--<button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
+                  <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
                     <i class="fab fa-twitter"></i>
-                  </button>-->
+                  </button>
       
-                  <!--<button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
+                  <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
                     <i class="fab fa-linkedin-in"></i>
-                  </button>-->
+                  </button>
                 </div>
       
                 <div class="divider d-flex align-items-center my-4">

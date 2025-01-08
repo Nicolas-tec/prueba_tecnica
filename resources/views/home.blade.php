@@ -43,15 +43,22 @@
       </nav>
       <div id="carrusel" class="carousel slide" data-bs-ride="carousel">
         <center>
-        <div class="carousel-inner">
+          <div class="carousel-inner">
             <div class="carousel-item active">
             <img src="{{ asset('assets/L1.jpg') }}" class="d-block w-50 h-50" alt="img1">
             </div>
             <div class="carousel-item ">
+              <br>
+              <br>
             <img src="{{ asset('assets/L2.avif') }}" class="d-block w-50 h-50" alt="img2">
             </div>
             <div class="carousel-item ">
+              <br>
+              <br>
+              <br>
             <img src="{{ asset('assets/L3.jfif') }}" class="d-block w-50 h-50" alt="img3">
+            <br>
+            <br>
             </div>
         </div>
     </center>
